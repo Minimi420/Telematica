@@ -25,7 +25,7 @@ data "aws_vpc" "this" {
 }
 
 resource "aws_security_group" "allow_http" {
-  name        = "allow_http"
+  name        = "allow_http_V1"
   description = "Allow HTTP inbound traffic"
   vpc_id      = data.aws_vpc.this.id
 
