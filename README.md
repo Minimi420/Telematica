@@ -9,7 +9,7 @@ tfenv use 1.2.5
 terraform --version
 
 Descargar los scripts de terraform:
-git clone Añade link
+git clone https://github.com/Minimi420/Telematica.git
 
 Ejecutar terraform para aplicar la configuración:
 terraform init
